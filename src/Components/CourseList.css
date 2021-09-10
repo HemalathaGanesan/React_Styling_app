@@ -1,0 +1,10 @@
+.course-list {
+  border: 1px solid;
+  background-color: #962e6d;
+  color: white;
+  padding-left: 2.5rem;
+  text-transform: capitalize;
+  margin-bottom: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

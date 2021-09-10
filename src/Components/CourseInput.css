@@ -1,0 +1,45 @@
+.course {
+  background-color: white;
+  width: 50rem;
+  margin: 2rem auto;
+  border: 1px solid white;
+  border-radius: 12px;
+  box-shadow: 1px 1px 1px 2px #f4f2ee;
+  padding: 3rem 2rem;
+}
+.course-inner {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.course-inner label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.course-inner input {
+    width: 90%;
+    padding: 1rem;
+    border: 3px solid #d2c9c9;
+    border-radius: 6px;
+}
+.course-inner input :active{
+    border: 3px solid #d2c9c9;   
+}
+
+.course-action button{
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px;
+    color: white;
+    background-color: #962e6d;
+    cursor: pointer;
+}
+
+.course-inner.invalid input{
+  border-color: red;
+}
+.course-inner.invalid label{
+  color: red;
+}
