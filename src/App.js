@@ -1,4 +1,3 @@
-import "./App.css";
 import CourseInput from "./Components/CourseInput";
 import Course from "./Components/Course";
 import { useState } from "react";
