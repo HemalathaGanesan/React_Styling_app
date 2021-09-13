@@ -1,9 +1,13 @@
 import "./CourseList.css";
 
 const CourseList = (props) => {
+const deleteHandler=()=>{
+  props.onDelete(props.id)
+}
+
   return (
     <div className="course-list">
-      <p>{props.title}</p>
+      <p onClick={deleteHandler}>{props.title}</p>
     </div>
   );
 };

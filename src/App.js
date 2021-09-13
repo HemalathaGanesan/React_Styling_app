@@ -18,10 +18,17 @@ function App() {
     });
   };
 
+  const deleteCourseGoalItem = (courseId) => {
+    setTopic((previousState) => {
+      const updatedGoals = previousState.filter((goal)=>
+        goal.id !== courseId);
+        return updatedGoals;
+    });
+  };
   return (
     <div className="course-main">
       <CourseInput getAddedCourse={getCourseGoalsHandler} />
-      <Course courseGoals={topic} />
+      <Course courseGoals={topic} courseDelete={deleteCourseGoalItem} />
     </div>
   );
 }
